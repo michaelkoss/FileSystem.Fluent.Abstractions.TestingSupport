@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard1.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="FileSystem.Fluent.Abstractions.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\FileSystem.Fluent.Abstractions\FileSystem.Fluent.Abstractions.Core\bin\Release\netstandard1.0\FileSystem.Fluent.Abstractions.Core.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>

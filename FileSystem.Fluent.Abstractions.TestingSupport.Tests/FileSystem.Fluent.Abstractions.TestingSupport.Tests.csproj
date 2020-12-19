@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net45</TargetFramework>
+
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="nunit" Version="3.12.0" />
+        <PackageReference Include="NUnit3TestAdapter" Version="3.15.1" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\FileSystem.Fluent.Abstractions.TestingSupport\FileSystem.Fluent.Abstractions.TestingSupport.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="FileSystem.Fluent.Abstractions.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\FileSystem.Fluent.Abstractions\FileSystem.Fluent.Abstractions.Core\bin\Release\netstandard1.0\FileSystem.Fluent.Abstractions.Core.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
